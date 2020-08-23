@@ -1,5 +1,5 @@
 Body {
-  background-color: rgb(132, 168, 166);
+  background-color: lightseagreen;
 }
 
 .jumbotron {
@@ -17,10 +17,14 @@ Body {
 .jumbotron > h2 {
   text-align: center;
 }
+
+.col-4 {
+  color: white;
+}
+
 .border {
-  border-style: solid;
-  border-color: rgb(3, 3, 73);
-  border-width: 50px;
+ border-style:solid;
+ border-color:#287EC7;
 }
 
 
@@ -30,6 +34,17 @@ Body {
   border-width: 30px;
   border-color: rgb(3, 3, 73);
 }
+
+.tiny {
+  width: 250px;
+  border-style: 10px;
+  border-color: rgb(3, 3, 73)
+}
+
+h1, h2 {
+  color: white
+}
+
 
 h3 {
   padding-top: 20px;
